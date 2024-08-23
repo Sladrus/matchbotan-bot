@@ -67,7 +67,7 @@ class UserService {
     try {
       await BotService.replyToMessage(
         message_id,
-        'Купите подписку, чтобы получить доступ к комментариям: @MathBotanBot\n\nПочему так? https://t.me/mathbotan/552',
+        'Всего 299₽, чтобы получить доступ к комментариям: @MathBotanBot\n\nПочему так? https://t.me/mathbotan/552',
         chat_id
       );
     } catch (e) {
