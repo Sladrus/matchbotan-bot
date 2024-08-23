@@ -19,7 +19,7 @@ class UserService {
       return await BotService.sendMessage(chat_id, `Подписка активна.`);
     await BotService.sendMessage(
       chat_id,
-      `Ваша ссылка на оплату: ${PAY_URL}?tg=${from_id}\n\nПосле оплаты бот выдаст приглашение на вступление в чат.`
+      `Теперь доступ к комментариям – 299₽, Ваша ссылка на оплату: ${PAY_URL}?tg=${from_id}\n\nПосле оплаты бот выдаст приглашение на вступление в чат.`
     );
   }
 
